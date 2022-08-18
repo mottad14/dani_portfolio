@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../assets/portfolio1.png';
-import IMG3 from '../assets/portfolio2.png'
-import IMG2 from '../assets/portfolio3.png';
+import IMG2 from '../assets/portfolio2.png'
+import IMG3 from '../assets/portfolio3.png';
 import IMG4 from '../assets/portfolio4.png'
 import IMG5 from '../assets/portfolio5.png'
 import IMG6 from '../assets/portfolio6.png'
@@ -18,13 +18,13 @@ const data = [
 		title: `YumBuns - React, Express, MongoDB, Firebase`,
 		github: 'https://github.com/mottad14/yumBuns',
 		target: '_blank',
-		demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
+		demo: 'http://ec2-18-191-144-79.us-east-2.compute.amazonaws.com/?',
 	},
 	{
 		id: 2,
 		image: IMG2,
 		title: `Daniel Motta [Portfolio] - "MERN"`,
-		github: 'https://github.com',
+		github: 'https://github.com/mottad14/dani_portfolio',
 		target: '_self',
 		demo: '#',
 	},
@@ -32,7 +32,7 @@ const data = [
 		id: 3,
 		image: IMG3,
 		title: 'Dojo Meet Up - C# ASP.NET Core',
-		github: 'https://github.com',
+		github: 'https://github.com/mottad14/DojoMeetUp',
 		target: '_blank',
 		demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps',
 	},
@@ -42,24 +42,8 @@ const data = [
 		title: 'CarBubble - C# ASP.NET Core Bootstrap',
 		github: 'https://github.com',
 		target: '_blank',
-		demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress',
-	},
-	{
-		id: 5,
-		image: IMG5,
-		title: 'Charts templates & infographics in Figma',
-		github: 'https://github.com',
-		target: '_blank',
-		demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma',
-	},
-	{
-		id: 6,
-		image: IMG6,
-		title: 'Charts templates & infographics in Figma',
-		github: 'https://github.com',
-		target: '_blank',
-		demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma',
-	},
+		demo: 'https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+	}
 ];
 
 
@@ -92,7 +76,7 @@ const Portfolio = () => {
 									<FiGithub/> Github
 								</a>
 								<a href={demo} className='btn btn-primary' target={target}>
-									Live Demo
+									Website
 								</a>
 							</div>
 						</article>
