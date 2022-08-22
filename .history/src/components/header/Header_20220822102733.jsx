@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../assets/header-pic.png'
-import HeaderSocials from './HeaderSocials'
+import HeaderSocial from './HeaderSocials'
 import {AiOutlineUser} from 'react-icons/ai'
 import { CgPushRight } from 'react-icons/cg';
 
@@ -14,10 +14,10 @@ const Header = () => {
 					<h2 style={{lineHeight:'0rem',fontSize:'1.5rem'}}><AiOutlineUser/></h2>
 					<h2 className='hello'>Hello I'm</h2>
 					<h1 className='myname'>Daniel Motta</h1>
-					<h3 className='full-stack text-light'>Full Stack Software Engineer</h3>
+					<h3 className='full-stack text-light'>Fullstack Software Engineer</h3>
 				</div>
 				<CTA />
-				<HeaderSocials/>
+				<HeaderSocial />
 
 				<div className='me'>
 					<img src={ME} alt='me' />

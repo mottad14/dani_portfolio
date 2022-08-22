@@ -2,7 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../assets/header-pic.png'
-import HeaderSocials from './HeaderSocials'
+import HeaderSocial from './HeaderSocials'
 import {AiOutlineUser} from 'react-icons/ai'
 import { CgPushRight } from 'react-icons/cg';
 

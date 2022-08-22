@@ -2,7 +2,6 @@ header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
-  padding: 1%;
 }
 
 .header__container {
@@ -60,7 +59,7 @@ h1.myname {
 .me {
   background: linear-gradient(var(--color-primary), transparent) ;
   width: 22rem;
-  height: 30rem;
+  height: 35rem;
   position: relative;
   left: calc(50% - 11rem);
   margin-top: 2rem;
@@ -98,12 +97,6 @@ h1.myname {
   header {
     height: 100%;
     width: 100%;
-  }
-  .header__socials,
-  .scroll__down {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
   }
 }
 

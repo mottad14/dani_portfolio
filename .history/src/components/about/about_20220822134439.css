@@ -73,7 +73,7 @@
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap:inherit;
   }
 
   .about__me {
@@ -86,7 +86,7 @@
   }
 
   .about__me-image {
-  width: 80%;
+  width: 16rem;
 }
 }
 

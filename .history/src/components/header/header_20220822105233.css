@@ -2,7 +2,6 @@ header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
-  padding: 1%;
 }
 
 .header__container {
@@ -97,13 +96,7 @@ h1.myname {
 @media screen and (max-width: 1024px) {
   header {
     height: 100%;
-    width: 100%;
-  }
-  .header__socials,
-  .scroll__down {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: ;
   }
 }
 

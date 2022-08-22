@@ -2,7 +2,6 @@ header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
-  padding: 1%;
 }
 
 .header__container {
@@ -46,13 +45,13 @@ h1.myname {
 /* =============== HEADER SOCIALS: HOVER ============== */
 .header__socials a:hover {
   transform: scale(1.2);
-  transition: all ease 0.3s;
+  transition: all ease 0.4s;
 }
 
 .header__socials::after {
   content: "";
   width: 2px;
-    height: 5rem;
+    height: 4rem;
   background: var(--color-primary);
 }
 
@@ -61,7 +60,7 @@ h1.myname {
   background: linear-gradient(var(--color-primary), transparent) ;
   width: 22rem;
   height: 30rem;
-  position: relative;
+  position: absolute;
   left: calc(50% - 11rem);
   margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
@@ -96,27 +95,19 @@ h1.myname {
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   header {
-    height: 100%;
-    width: 100%;
-  }
-  .header__socials,
-  .scroll__down {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    height: 100vh;
+    width: auto;
   }
 }
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   header {
-    height: auto;
+    height: 100vh;
   }
 
   .header__socials,
   .scroll__down {
     display: flex;
-    flex-direction: row;
-    align-items: center;
   }
 }
