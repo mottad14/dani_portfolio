@@ -103,8 +103,9 @@ h1.myname {
   .scroll__down {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     z-index: 1;
-    margin-left: 30%;
   }
 }
 

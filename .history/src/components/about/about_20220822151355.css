@@ -86,7 +86,7 @@
   }
 
   .about__me-image {
-  width: 85%;
+  width: auto;
 }
 }
 
@@ -97,7 +97,7 @@
     margin: 0 auto 3rem;
   }
   .about__me-image {
-  width: 77%;
+  width: 75%;
 }
 
   .about__cards {

@@ -86,7 +86,7 @@
   }
 
   .about__me-image {
-  width: 85%;
+  width: auto;
 }
 }
 
@@ -96,9 +96,6 @@
     width: 65%;
     margin: 0 auto 3rem;
   }
-  .about__me-image {
-  width: 77%;
-}
 
   .about__cards {
     grid-template-columns: 1fr 1fr;
