@@ -37,7 +37,7 @@ const About = () => {
             <article className='about__card'>
               <AiOutlineFundProjectionScreen className='about__icon'/>
               <h3>Project Leader</h3>
-              <small>I lead delicate and meticulous projects to success in the face of adversity.</small>
+              <small>I lead delicate projects to success in the face of adversity.</small>
             </article>
             <article className='about__card'>
               <MdOutlineFamilyRestroom className='about__icon'/>
@@ -55,7 +55,7 @@ const About = () => {
           If you're looking for someone highly motivated, that has real world experience, and unique skills, you've found him. <b>Let's chat.</b>
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Chat!</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>

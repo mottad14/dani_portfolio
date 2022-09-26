@@ -14,7 +14,7 @@
 :root {
   --color-bg: #002f3a;
   --color-bg-variant: #120a0a;
-  --color-primary: #e7c9b1;
+  --color-primary: #d9630a;
   --color-primary-variant: #ee6d6d;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
@@ -40,7 +40,7 @@ body {
   line-height: 1.7;
   background-color: #00233a;
   opacity:1;
-  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #371f00ae 25px ), repeating-linear-gradient( #00456381, #000000 );
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ff9100ae 25px ), repeating-linear-gradient( #00456381, #000000 );
 }
 
 

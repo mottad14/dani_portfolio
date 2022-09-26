@@ -40,7 +40,7 @@ const data = [
 		id: 4,
 		image: IMG4,
 		title: 'GreenHub - Ecommerce - C#, Blazor, and ASP.NET 6 ',
-		github: 'https://github.com/mottad14/GreenShop',
+		github: 'https://github.com',
 		target: '_blank',
 		demo: 'https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 	}

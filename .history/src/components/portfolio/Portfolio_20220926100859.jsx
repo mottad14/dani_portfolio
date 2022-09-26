@@ -15,7 +15,7 @@ const data = [
 	{
 		id: 1,
 		image: IMG1,
-		title: `YumBuns - MongoDb, Express, React, Node.js (MERN), Firebase`,
+		title: `YumBuns - React, Express, MongoDB, Firebase`,
 		github: 'https://github.com/mottad14/yumBuns',
 		target: '_blank',
 		demo: 'http://ec2-18-191-144-79.us-east-2.compute.amazonaws.com/?',
@@ -23,7 +23,7 @@ const data = [
 	{
 		id: 2,
 		image: IMG2,
-		title: `Daniel Motta [Portfolio] - React`,
+		title: `Daniel Motta [Portfolio] - "MERN"`,
 		github: 'https://github.com/mottad14/dani_portfolio',
 		target: '_self',
 		demo: '#',
@@ -39,8 +39,8 @@ const data = [
 	{
 		id: 4,
 		image: IMG4,
-		title: 'GreenHub - Ecommerce - C#, Blazor, and ASP.NET 6 ',
-		github: 'https://github.com/mottad14/GreenShop',
+		title: 'CarBubble - C# ASP.NET Core Bootstrap',
+		github: 'https://github.com',
 		target: '_blank',
 		demo: 'https://images.pexels.com/photos/4271927/pexels-photo-4271927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 	}
